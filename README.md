@@ -7,6 +7,7 @@ the app will wait till midnight next day to initiate reservation for the day aft
 All user defined variables are stored in .env file. You'll need to know your telegram phone and password to
 interact with Telegram API.
 
+
 Telegram chat message format:
 ~~~
 'Reserve <facility> <num_ppl> <time_arg_1> <time_arg_2>'
