@@ -24,14 +24,14 @@ Examples:
 ~~~
 
 ## Installation
-See 'requirments.txt'
+See 'requirements.txt'
 
 CentOS base packages installation and setup:
 ~~~
 yum groupinstall “Development Tools”
 yum install pip3.6
 ~~~
-#Install geckodriver to interact with Mozilla browser
+#Install geckodriver for Selenium module to interact with Mozilla browser
 ~~~
 wget -o https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
 tar -xvf geckodriver-v0.30.0-linux64.tar.gz
@@ -48,9 +48,21 @@ pip3 install python-dotenv
 ~~~
 
 ## Implementation
-Works with python3.6 or newer
+Works with python3.6 or newer.
+Application spins up and stays active until keyboard interrupted.
 ~~~
 ]$ python3.6 main.py 
 ~~~
 
 ### .env file variables
+~~~
+'NEW_GYM_PAGE'  # New gym reservation Webpage
+'OLD_GYM_PAGE'  # Old gym reservation Webpage
+'PERSON_1'  # First person name to reserve a gym
+'PERSON_2'  # Second person name to reserve a gym
+'SIGNIN_EMAIL'  # Reservation Webpage signing email address
+'SIGNIN_PASSWD'  # Reservation Webpage signing email address 
+'API_ID'  # Telegram APP API ID
+'API_HASH'  # Telegram APP hash ID
+'PRIVATE_GROUP_BOT_API_ID'  # Telegram BOT API ID
+~~~
