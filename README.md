@@ -8,7 +8,9 @@ All user defined variables are stored in .env file. You'll need to know your tel
 interact with Telegram API.
 
 Telegram chat message format:
+~~~
 'Reserve <facility> <num_ppl> <time_arg_1> <time_arg_2>'
+~~~
   
 :param facility: new or old facility (each has different web address)
 :param num_ppl: 1 or 2 | number of people reserving a gym from my name
